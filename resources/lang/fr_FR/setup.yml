@@ -1,0 +1,44 @@
+---
+database:
+  connection-error: "Unable to connect to the target :type database, please check your configuration. The server replied with: :msg"
+locked:
+  title: Déjà installé
+  text: It appears that you have already installed Blessing Skin Server. To reinstall, please delete the "install.lock" file under "storage" directory.
+  button: Retour à la page d'accueil
+updates:
+  success:
+    title: Mise à jour terminée
+wizard:
+  master:
+    title: Assistant d'installation - Blessing Skin Server
+  welcome:
+    title: Bienvenue
+    button: Suivant
+    text: Bienvenue sur Blessing Skin Server v:version !
+  database:
+    title: Base de données
+    text: La base de données est utilisée pour stocker les données de Blessing Skin.
+    type: Type de base de données
+    host: Hôte de la base de données
+    port: Port de la base de données
+    username: Nom d'utilisateur de la base de données
+    password: Mot de passe de la base de données
+    db: Nom de la base de données
+    db-notice: You should provide the path to SQLite file and there is no need to fill other blanks if you use SQLite.
+    prefix: Prefix of Database Table (Optional)
+    prefix-notice: You don't need to use this option unless you want to install multiple Blessing Skin Server into one database.
+  info:
+    title: Information requise
+    button: Lancer l'installation
+    text: To proceed with the installation, please fill this form with the details of the initial admin account. Don't worry, you can always change these settings later.
+    admin-email: Adresse e-mail de l'administrateur
+    admin-notice: This is the UNIQUE super admin account who can GIVE or CANCEL other users' admin privilege.
+    nickname: Pseudonyme
+    password: Mot de passe
+    pwd-notice: 'Attention: You will need the password to log in. Please keep it at a secure place.'
+    confirm-pwd: Confirmer le mot de passe
+    site-name: Nom du site
+    site-name-notice: This will be shown on every page.
+  finish:
+    title: Installation terminée
+    text: Blessing Skin Server has been installed. Thank you, and enjoy!

@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "resources/assets",
+    "tools",
+    "webpack.config.ts",
+    "webpack.meta.config.ts"
+  ]
+}
